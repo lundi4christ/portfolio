@@ -1,8 +1,8 @@
 .panelbox1{
-  position: fixed;
+  position: absolute;
   top: 40px;
   /*margin-left: 260px;*/
-  height: 400px;
+  /*height: 400px;*/
   width: 100%;
   background-color: #FFFFFF;
   /*border-radius: 10px;*/
@@ -29,10 +29,34 @@
   font-size: 20px;
   font-weight: bold;
   height: 200px;
+  text-align: center;
+}
+
+.mylist .dcol{
+  text-align: center;
+  /*font-weight: bold;*/
+  font-size: 20px;
+}
+
+.mylist .dcol2{
+  text-align: center;
+  /*font-weight: bold;*/
+  font-size: 20px;
+  background-color:  #eee;
 }
 
 .mylist1 {
   background-color: #FFFFFF;
+}
+
+#dalign{
+  text-align: left;
+  font-size: 15px;
+}
+#dalign2{
+  text-align: left;
+  font-size: 15px;
+
 }
 
 
